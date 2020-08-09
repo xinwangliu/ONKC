@@ -2,8 +2,7 @@ clear
 clc
 warning off;
 
-% path = 'D:\Work\lab_xwl\code\';
-path = '/ONKC/';
+path = './ONKC/';
 addpath(genpath(path));
 dataName = 'cornell_Kmatrix'; %%% flower17; flower102; CCV; caltech101_numofbasekernel_10
 %% %% washington; wisconsin; texas; cornell
